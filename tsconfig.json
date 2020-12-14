@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "declaration": true,
+        "importHelpers": true,
+        "jsx": "react",
+        "module": "commonjs",
+        "noEmitOnError": true,
+        "noImplicitAny": false,
+        "outDir": "dist",
+        "sourceMap": true,
+        "strictBindCallApply": true,
+        "target": "es5",
+        "esModuleInterop": true
+    },
+    "include": [
+        "src/server.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/__tests__",
+        "**/__mocks__"
+    ]
+}
